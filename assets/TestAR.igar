@@ -1,0 +1,229 @@
+{
+    "Assets": [
+        {
+            "Handle": "022d9c44-31b8-4686-966b-a622234178a6",
+            "Type": 4,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/images/citrus_orchard_puresky_4k/citrus_orchard_puresky_4k_radiance.hdr"
+        },
+        {
+            "Handle": "04e58228-adc4-42e0-94b9-937cd0bea4ff",
+            "Type": 0,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cerberus_by_Andrew_Maximov/Textures/Raw/Masks.psd"
+        },
+        {
+            "Handle": "1cc5f7ba-b52f-4530-865c-71499f438618",
+            "Type": 4,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/images/brown_photostudio_02_4k.hdr"
+        },
+        {
+            "Handle": "269e67b2-34a6-4f85-9f66-d5c01c996704",
+            "Type": 1,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cottage/texture/cottage_textures/cottage_normal.png"
+        },
+        {
+            "Handle": "289af2af-6834-4d4f-98b6-e32f338dd025",
+            "Type": 1,
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_N.tga"
+        },
+        {
+            "Handle": "327d3799-95fe-411b-a348-5373e68a752f",
+            "Type": 1,
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_M.tga"
+        },
+        {
+            "Handle": "376cd182-c031-4a56-b0ec-4c269c5d5ceb",
+            "Type": 3,
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Cerberus_LP.FBX"
+        },
+        {
+            "Handle": "4534c121-d21f-45fb-974d-e1f579667693",
+            "Type": 1,
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_R.tga"
+        },
+        {
+            "Handle": "4b04d23e-afb9-4930-962b-a0736be43304",
+            "Type": 1,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cerberus_by_Andrew_Maximov/Textures/Raw/Cerberus_AO.tga"
+        },
+        {
+            "Handle": "4c46242e-c779-49ad-b2c2-58b62266bcb1",
+            "Type": 1,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/backpack/ao.jpg"
+        },
+        {
+            "Handle": "4eac893c-aa27-4040-b3c5-afc922f127bf",
+            "Type": 1,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_N.tga"
+        },
+        {
+            "Handle": "5550feb6-e50a-49aa-8fe9-8da0c35ff089",
+            "Type": 0,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/backpack/backpack.mtl"
+        },
+        {
+            "Handle": "5936367d-70aa-472a-8820-5684aa8fe378",
+            "Type": 1,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cottage/texture/cottage_textures/cottage_diffuse.png"
+        },
+        {
+            "Handle": "670ef356-dfde-46c9-8df5-e77838882dee",
+            "Type": 1,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/backpack/roughness.jpg"
+        },
+        {
+            "Handle": "6a52377a-a590-483a-b8c9-bb6ee3fc3496",
+            "Type": 1,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cerberus_by_Andrew_Maximov/Textures/Raw/Cerberus_UV.tga"
+        },
+        {
+            "Handle": "6bafee26-6575-487c-920b-b9d1edd3e7fe",
+            "Type": 4,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/images/brown_photostudio_02_4k/brown_photostudio_02_4k_radiance.hdr"
+        },
+        {
+            "Handle": "6c3b335d-2e36-4bca-8382-8789cd592f21",
+            "Type": 3,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cottage/obj/cottage_obj.obj"
+        },
+        {
+            "Handle": "71fa24fe-1f10-4a0b-9161-c7f5e05e18cd",
+            "Type": 1,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cerberus_by_Andrew_Maximov/Textures/Raw/Cerberus_N.tga"
+        },
+        {
+            "Handle": "7360794b-8070-4935-a856-0c6e58de1a1c",
+            "Type": 1,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/backpack/normal.png"
+        },
+        {
+            "Handle": "78359443-6c67-4191-a13d-dcaed45e72cf",
+            "Type": 0,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/scenes/StartScene.igscene"
+        },
+        {
+            "Handle": "7bf7da78-de20-49db-b11a-a3ee4c3b291b",
+            "Type": 0,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cerberus_by_Andrew_Maximov/Cerberus.tbscene"
+        },
+        {
+            "Handle": "833c3056-5d08-4d5e-93a2-bfbce3e2b895",
+            "Type": 4,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/images/citrus_orchard_puresky_4k/citrus_orchard_puresky_4k_skybox.hdr"
+        },
+        {
+            "Handle": "86040ead-62bc-492e-b704-76ef65b5cab5",
+            "Type": 3,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cottage/fbx/cottage_fbx.fbx"
+        },
+        {
+            "Handle": "87af6aa2-a081-495f-960b-1c9edfc60081",
+            "Type": 0,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/scripts/RotateSelf.cpp"
+        },
+        {
+            "Handle": "8ac8c5c7-c44f-4826-9780-970c3d68cb75",
+            "Type": 3,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/sphere.fbx"
+        },
+        {
+            "Handle": "8d40958d-4270-48c7-aed0-bc60d6eada53",
+            "Type": 1,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_R.tga"
+        },
+        {
+            "Handle": "9dd56466-2554-478f-ae11-55526adfded6",
+            "Type": 1,
+            "FilePath": "resources://images/ibl_brdf_lut.png"
+        },
+        {
+            "Handle": "a2602624-9fa7-4c8a-818c-9fe4652aa816",
+            "Type": 4,
+            "FilePath": "assets://images/brown_photostudio_02_4k.hdr"
+        },
+        {
+            "Handle": "a31e0b00-4b28-4328-8167-57fcdb52982e",
+            "Type": 1,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/backpack/diffuse.jpg"
+        },
+        {
+            "Handle": "a36f6487-cc2e-481c-b683-d26ec1e68f0c",
+            "Type": 1,
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_A.tga"
+        },
+        {
+            "Handle": "a41cc36d-41bb-40be-a256-212ae9aec0e2",
+            "Type": 0,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cottage/texture/cottage_description.txt"
+        },
+        {
+            "Handle": "b285cd04-7bb8-48b8-89db-54931a781875",
+            "Type": 1,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_A.tga"
+        },
+        {
+            "Handle": "c061491d-4dad-41b7-83b5-04fdf540da68",
+            "Type": 4,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/images/brown_photostudio_02_4k/brown_photostudio_02_4k_skybox.hdr"
+        },
+        {
+            "Handle": "c11374da-a8f6-49de-afc2-257b1f9fe8a4",
+            "Type": 1,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/backpack/specular.jpg"
+        },
+        {
+            "Handle": "c2923124-515f-4bfe-9684-4870e467ec06",
+            "Type": 1,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_M.tga"
+        },
+        {
+            "Handle": "c2a9d42e-f578-48c4-bd3a-1aca5059f175",
+            "Type": 0,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/backpack/source_attribution.txt"
+        },
+        {
+            "Handle": "c34f3ffe-da8a-4a31-8d3f-86c7889359e9",
+            "Type": 4,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/images/brown_photostudio_02_4k/brown_photostudio_02_4k_irradiance.hdr"
+        },
+        {
+            "Handle": "ce86f508-2b53-4cf3-99a8-9876c82f8c89",
+            "Type": 3,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/backpack/backpack.obj"
+        },
+        {
+            "Handle": "d029fdf6-bf84-409f-879f-e072cfa4d337",
+            "Type": 0,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/scripts/RegisterGameScripts.cpp"
+        },
+        {
+            "Handle": "d3c28ab9-7033-4ae3-ab70-6487e9bf499b",
+            "Type": 0,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cerberus_by_Andrew_Maximov/Disclaimer.txt"
+        },
+        {
+            "Handle": "d636eba6-e8ca-4422-89d4-ffec167ba951",
+            "Type": 0,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cottage/obj/cottage_obj.mtl"
+        },
+        {
+            "Handle": "da97d609-4654-4d14-ab48-75151bc07a81",
+            "Type": 0,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/TestAR.igar"
+        },
+        {
+            "Handle": "e7021937-f88a-4b55-80a1-7f1cc570ebd1",
+            "Type": 1,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/images/awesomeface.png"
+        },
+        {
+            "Handle": "ef52e0d6-8a41-4726-ab2a-edde068ba7c6",
+            "Type": 3,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/models/Cerberus_by_Andrew_Maximov/Cerberus_LP.FBX"
+        },
+        {
+            "Handle": "f8267cfe-e279-4186-bc8c-f83848dbe133",
+            "Type": 4,
+            "FilePath": "D:/JamesLiu/Documents/MyProject/assets/images/citrus_orchard_puresky_4k/citrus_orchard_puresky_4k_irradiance.hdr"
+        }
+    ]
+}

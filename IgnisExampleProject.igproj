@@ -1,0 +1,13 @@
+{
+    "ProjectName": "IgnisExampleProject",
+    "AssetDirectory": "assets/",
+    "AssetRegistry": "assets/TestAR.igar",
+    "StartScene": "scenes/StartScene.igscene",
+    "ScriptModule": {
+        "Name": "IgnisExampleProject",
+        "Directory": "bin/{Platform}/{Config}/",
+        "Windows": "{Name}.dll",
+        "Linux": "lib{Name}.so",
+        "macOS": "lib{Name}.dylib"
+    }
+}

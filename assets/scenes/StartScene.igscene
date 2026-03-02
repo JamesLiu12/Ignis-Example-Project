@@ -1,0 +1,204 @@
+{
+    "SceneName": "UntitledScene",
+    "Entities": [
+        {
+            "ID": "03d861ce-0d8b-49f9-b504-09c49c17abd7",
+            "Tag": "Gun",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    148.80694580078125,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Mesh": {
+                "Mesh": "376cd182-c031-4a56-b0ec-4c269c5d5ceb",
+                "MaterialData": {
+                    "AlbedoMap": "a36f6487-cc2e-481c-b683-d26ec1e68f0c",
+                    "NormalMap": "289af2af-6834-4d4f-98b6-e32f338dd025",
+                    "MetalnessMap": "327d3799-95fe-411b-a348-5373e68a752f",
+                    "RoughnessMap": "4534c121-d21f-45fb-974d-e1f579667693",
+                    "EmissiveMap": "00000000-0000-0000-0000-000000000000",
+                    "AOMap": "00000000-0000-0000-0000-000000000000"
+                }
+            },
+            "Script": {
+                "ClassName": "RotateSelf",
+                "Enabled": true
+            }
+        },
+        {
+            "ID": "5d3c2d98-173e-4b4b-b441-a76bdde3fcc8",
+            "Tag": "Spot Light",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    -2.0,
+                    2.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "SpotLight": {
+                "Color": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "Intensity": 10.0,
+                "Range": 15.0,
+                "InnerConeAngle": 12.5,
+                "OuterConeAngle": 17.5
+            }
+        },
+        {
+            "ID": "6b94ff0f-0209-4045-8f05-c9bdd5f22550",
+            "Tag": "Directional Light",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    5.0,
+                    5.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "DirectionalLight": {
+                "Color": [
+                    1.0,
+                    0.949999988079071,
+                    0.800000011920929
+                ],
+                "Intensity": 1.5
+            }
+        },
+        {
+            "ID": "85bdb436-6d0e-4efa-bbad-902326061b46",
+            "Tag": "Point Light",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    2.0,
+                    2.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "PointLight": {
+                "Color": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "Intensity": 5.0,
+                "Range": 10.0
+            }
+        },
+        {
+            "ID": "b1bf51c8-22ee-4a28-9edf-11b57819e4c6",
+            "Tag": "Environment",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "SkyLight": {
+                "Environment": "a2602624-9fa7-4c8a-818c-9fe4652aa816",
+                "Intensity": 1.0,
+                "Rotation": 0.0,
+                "Tint": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "SkyboxLod": 0.0
+            }
+        }
+    ]
+}
