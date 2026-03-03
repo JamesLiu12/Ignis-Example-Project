@@ -161,6 +161,51 @@
             }
         },
         {
+            "ID": "980c8de8-199e-47ae-b473-1cbee5c62ea3",
+            "Tag": "Camera",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    -14.028093338012695,
+                    0.0,
+                    -1.792372226715088
+                ],
+                "Rotation": [
+                    0.0,
+                    1.4437147378921509,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Camera": {
+                "Primary": true,
+                "FixedAspectRatio": false,
+                "ProjectionType": 0,
+                "AspectRatio": 1.7777777910232544,
+                "PerspectiveFOV": 45.0,
+                "PerspectiveNear": 0.009999999776482582,
+                "PerspectiveFar": 1000.0,
+                "OrthographicSize": 10.0,
+                "OrthographicNear": -1.0,
+                "OrthographicFar": 1.0
+            },
+            "Script": {
+                "ClassName": "CameraController",
+                "Enabled": true
+            }
+        },
+        {
             "ID": "9db37731-0f69-42f5-9f58-f1bb0c8eaa4c",
             "Tag": "House",
             "Relationship": {

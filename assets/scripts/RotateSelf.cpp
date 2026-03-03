@@ -1,4 +1,4 @@
-#include "Ignis.h"
+#include <Ignis.h>
 
 class RotateSelf : public ignis::ScriptBehaviour
 {
