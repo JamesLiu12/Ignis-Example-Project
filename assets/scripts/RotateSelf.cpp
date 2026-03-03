@@ -1,6 +1,4 @@
-#include <pch.h>
-#include "Ignis/Script/ScriptBehaviour.h"
-#include "Ignis/Script/ScriptAutoRegistry.h"
+#include "Ignis.h"
 
 class RotateSelf : public ignis::ScriptBehaviour
 {

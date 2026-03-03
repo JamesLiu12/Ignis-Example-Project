@@ -1,5 +1,4 @@
-#include <pch.h>
-#include "Ignis/Script/ScriptAutoRegistry.h"
+#include <Ignis/Script/ScriptAutoRegistry.h>
 
 #if defined(_WIN32)
 #define GAME_EXPORT extern "C" __declspec(dllexport)
