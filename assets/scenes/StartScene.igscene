@@ -14,30 +14,30 @@
             },
             "Transform": {
                 "Translation": [
-                    0.0,
+                    -2.0999999046325684,
                     0.0,
                     0.0
                 ],
                 "Rotation": [
-                    0.0,
-                    148.80694580078125,
+                    4.699999809265137,
+                    1222.43212890625,
                     0.0
                 ],
                 "Scale": [
-                    1.0,
-                    1.0,
-                    1.0
+                    0.05000000074505806,
+                    0.05000000074505806,
+                    0.05000000074505806
                 ]
             },
             "Mesh": {
-                "Mesh": "376cd182-c031-4a56-b0ec-4c269c5d5ceb",
+                "Mesh": "73266cd1-4cb5-4234-8101-8902eac1c1dc",
                 "MaterialData": {
-                    "AlbedoMap": "a36f6487-cc2e-481c-b683-d26ec1e68f0c",
-                    "NormalMap": "289af2af-6834-4d4f-98b6-e32f338dd025",
-                    "MetalnessMap": "327d3799-95fe-411b-a348-5373e68a752f",
-                    "RoughnessMap": "4534c121-d21f-45fb-974d-e1f579667693",
-                    "EmissiveMap": "00000000-0000-0000-0000-000000000000",
-                    "AOMap": "00000000-0000-0000-0000-000000000000"
+                    "AlbedoMap": "7ba9d5f0-3341-49f4-902e-53ba861abf3d",
+                    "NormalMap": "55804ac9-adfc-493f-bfc7-fbac02f60447",
+                    "MetalnessMap": "ee6e0f50-16f4-4558-8e47-2a7a8cc9f17f",
+                    "RoughnessMap": "97755f88-8f2b-49de-88a2-2ffa647997f6",
+                    "EmissiveMap": "5f42c410-59a5-41a6-9c43-dfed65d446a1",
+                    "AOMap": "c7c51ab6-aec7-4d83-9ba4-ad4939f26ebf"
                 }
             },
             "Script": {
@@ -119,7 +119,7 @@
                     0.949999988079071,
                     0.800000011920929
                 ],
-                "Intensity": 1.5
+                "Intensity": 4.245999813079834
             }
         },
         {
@@ -161,6 +161,50 @@
             }
         },
         {
+            "ID": "9db37731-0f69-42f5-9f58-f1bb0c8eaa4c",
+            "Tag": "House",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    5.5,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    4.699999809265137,
+                    842.8002319335938,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Mesh": {
+                "Mesh": "7119bfc8-a9bd-4bc1-a107-0ff523e4a469",
+                "MaterialData": {
+                    "AlbedoMap": "748953b5-4bf8-44c9-a9ca-48be16893e93",
+                    "NormalMap": "e777052f-b025-4add-aca1-2ec3f5736496",
+                    "MetalnessMap": "bfb5ba92-cdf0-4a03-9177-0b0ca7162f63",
+                    "RoughnessMap": "05fd90ee-47ad-4bd0-9209-b131265303f0",
+                    "EmissiveMap": "bfb5ba92-cdf0-4a03-9177-0b0ca7162f63",
+                    "AOMap": "d49cbf9f-d5cc-4217-a92b-1721dff71524"
+                }
+            },
+            "Script": {
+                "ClassName": "RotateSelf",
+                "Enabled": true
+            }
+        },
+        {
             "ID": "b1bf51c8-22ee-4a28-9edf-11b57819e4c6",
             "Tag": "Environment",
             "Relationship": {
@@ -189,8 +233,8 @@
                 ]
             },
             "SkyLight": {
-                "Environment": "a2602624-9fa7-4c8a-818c-9fe4652aa816",
-                "Intensity": 1.0,
+                "Environment": "80c40dab-5791-440f-a317-1d9f02340424",
+                "Intensity": 1.00600004196167,
                 "Rotation": 0.0,
                 "Tint": [
                     1.0,
@@ -198,6 +242,46 @@
                     1.0
                 ],
                 "SkyboxLod": 0.0
+            }
+        },
+        {
+            "ID": "cdfd1b51-46de-484f-b336-757c601fdf1b",
+            "Tag": "Entity",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    3.299999952316284,
+                    4.800000190734863,
+                    -5.800000190734863
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Mesh": {
+                "Mesh": "406f41d4-70d7-4d9a-8b0e-5ece9487872f",
+                "MaterialData": {
+                    "AlbedoMap": "900f605f-0bca-42f1-b0d0-c993ee613d97",
+                    "NormalMap": "5aea698e-7038-4251-9135-8f0dce61dbb7",
+                    "MetalnessMap": "23d63ddf-ce2e-4471-954a-e74b061de6f9",
+                    "RoughnessMap": "33a6c21c-9f7e-448b-ae3d-7b82a1626d7d",
+                    "EmissiveMap": "23d63ddf-ce2e-4471-954a-e74b061de6f9",
+                    "AOMap": "900f605f-0bca-42f1-b0d0-c993ee613d97"
+                }
             }
         }
     ]
