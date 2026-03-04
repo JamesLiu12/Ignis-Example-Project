@@ -6,6 +6,11 @@
             "FilePath": "assets://scripts/ScriptModuleExports.cpp"
         },
         {
+            "Handle": "1e0ef12c-905a-4b8d-a470-38a4a8d2edd4",
+            "Type": 0,
+            "FilePath": "assets://scripts/CameraController.cpp"
+        },
+        {
             "Handle": "2891743e-fd0f-4026-bd49-8f9065c05bbb",
             "Type": 1,
             "FilePath": "resources://images/ibl_brdf_lut.png"
