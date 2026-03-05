@@ -123,6 +123,46 @@
             }
         },
         {
+            "ID": "82805199-cc4a-41a3-9aa1-a39627ff8e19",
+            "Tag": "Entity",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Text": {
+                "Text": "Hello World",
+                "Font": "b2e69651-ff5a-411f-bd87-cadc16ac6f4b",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Alpha": 1.0,
+                "Scale": 1.0
+            }
+        },
+        {
             "ID": "85bdb436-6d0e-4efa-bbad-902326061b46",
             "Tag": "Point Light",
             "Relationship": {

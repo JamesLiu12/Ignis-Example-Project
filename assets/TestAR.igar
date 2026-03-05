@@ -161,6 +161,11 @@
             "FilePath": "assets://models/backpack/backpack.obj"
         },
         {
+            "Handle": "b2e69651-ff5a-411f-bd87-cadc16ac6f4b",
+            "Type": 5,
+            "FilePath": "assets://fonts/Inter-VariableFont_opsz,wght.ttf"
+        },
+        {
             "Handle": "b363e44b-848a-4f69-b3a7-dfef7af74601",
             "Type": 0,
             "FilePath": "assets://models/backpack/backpack.mtl"
