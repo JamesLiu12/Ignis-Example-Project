@@ -31,6 +31,11 @@
             "FilePath": "assets://models/Cottage/obj/cottage_obj.obj"
         },
         {
+            "Handle": "367cbf97-2af2-486c-9a61-1996ebc3ea4c",
+            "Type": 0,
+            "FilePath": "assets://scripts/ButtonClick.cpp"
+        },
+        {
             "Handle": "374610cc-d2d3-402a-87ef-189be8514fdb",
             "Type": 1,
             "FilePath": "assets://images/awesomeface.png"

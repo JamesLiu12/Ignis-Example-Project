@@ -201,6 +201,110 @@
             }
         },
         {
+            "ID": "92e956b2-825b-44e3-841e-f70d4089d9a9",
+            "Tag": "Button",
+            "Relationship": {
+                "ParentID": "f62a7ecc-3bdd-4455-9051-4278cf1aaaa1",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "f4742409-0172-4aab-8370-92fafb9ccb03",
+                "NextSiblingID": "b80c75b2-c6e3-4881-b1df-3a5b5335c992",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Script": {
+                "ClassName": "ButtonClick",
+                "Enabled": true
+            },
+            "RectTransform": {
+                "AnchorMin": [
+                    0.0,
+                    0.0
+                ],
+                "AnchorMax": [
+                    0.0,
+                    0.0
+                ],
+                "OffsetMin": [
+                    10.0,
+                    210.0
+                ],
+                "OffsetMax": [
+                    300.0,
+                    310.0
+                ]
+            },
+            "Image": {
+                "Texture": "d7534be7-dce4-4534-acec-f9546cdb92ff",
+                "Color": [
+                    0.20000000298023224,
+                    0.5,
+                    0.8999999761581421,
+                    1.0
+                ],
+                "Visible": true,
+                "RaycastTarget": true,
+                "ScaleMode": 0
+            },
+            "UIText": {
+                "Text": "Click Me!",
+                "Font": "b2e69651-ff5a-411f-bd87-cadc16ac6f4b",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "FontSize": 32.0,
+                "HAlign": 1,
+                "VAlign": 1,
+                "Visible": true
+            },
+            "Button": {
+                "NormalColor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "HoverColor": [
+                    0.8500000238418579,
+                    0.8500000238418579,
+                    0.8500000238418579,
+                    1.0
+                ],
+                "PressedColor": [
+                    0.6499999761581421,
+                    0.6499999761581421,
+                    0.6499999761581421,
+                    1.0
+                ],
+                "DisabledColor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    0.5
+                ],
+                "Interactable": true
+            }
+        },
+        {
             "ID": "980c8de8-199e-47ae-b473-1cbee5c62ea3",
             "Tag": "Camera",
             "Relationship": {
@@ -232,7 +336,7 @@
                 "Primary": true,
                 "FixedAspectRatio": false,
                 "ProjectionType": 0,
-                "AspectRatio": 1.7419354915618896,
+                "AspectRatio": 1.6270784139633179,
                 "PerspectiveFOV": 77.57499694824219,
                 "PerspectiveNear": 0.009999999776482582,
                 "PerspectiveFar": 1000.0,
@@ -327,6 +431,183 @@
                     1.0
                 ],
                 "SkyboxLod": 0.0
+            }
+        },
+        {
+            "ID": "b80c75b2-c6e3-4881-b1df-3a5b5335c992",
+            "Tag": "HealthBar",
+            "Relationship": {
+                "ParentID": "f62a7ecc-3bdd-4455-9051-4278cf1aaaa1",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "92e956b2-825b-44e3-841e-f70d4089d9a9",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "RectTransform": {
+                "AnchorMin": [
+                    0.0,
+                    0.0
+                ],
+                "AnchorMax": [
+                    1.0,
+                    0.0
+                ],
+                "OffsetMin": [
+                    10.0,
+                    10.0
+                ],
+                "OffsetMax": [
+                    -10.0,
+                    50.0
+                ]
+            },
+            "ProgressBar": {
+                "Value": 0.75,
+                "MinValue": 0.0,
+                "MaxValue": 1.0,
+                "ForegroundColor": [
+                    0.20000000298023224,
+                    0.800000011920929,
+                    0.20000000298023224,
+                    1.0
+                ],
+                "BackgroundColor": [
+                    0.15000000596046448,
+                    0.15000000596046448,
+                    0.15000000596046448,
+                    1.0
+                ],
+                "FillDirection": 0,
+                "Visible": true
+            }
+        },
+        {
+            "ID": "f4742409-0172-4aab-8370-92fafb9ccb03",
+            "Tag": "MainMenu",
+            "Relationship": {
+                "ParentID": "f62a7ecc-3bdd-4455-9051-4278cf1aaaa1",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "92e956b2-825b-44e3-841e-f70d4089d9a9",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "RectTransform": {
+                "AnchorMin": [
+                    0.0,
+                    0.0
+                ],
+                "AnchorMax": [
+                    0.0,
+                    0.0
+                ],
+                "OffsetMin": [
+                    10.0,
+                    10.0
+                ],
+                "OffsetMax": [
+                    200.0,
+                    200.0
+                ]
+            },
+            "Image": {
+                "Texture": "374610cc-d2d3-402a-87ef-189be8514fdb",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Visible": true,
+                "RaycastTarget": false,
+                "ScaleMode": 1
+            }
+        },
+        {
+            "ID": "f62a7ecc-3bdd-4455-9051-4278cf1aaaa1",
+            "Tag": "HUD",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "f4742409-0172-4aab-8370-92fafb9ccb03",
+                "LastChildID": "b80c75b2-c6e3-4881-b1df-3a5b5335c992",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 3
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "RectTransform": {
+                "AnchorMin": [
+                    0.5,
+                    0.5
+                ],
+                "AnchorMax": [
+                    0.5,
+                    0.5
+                ],
+                "OffsetMin": [
+                    -50.0,
+                    -50.0
+                ],
+                "OffsetMax": [
+                    50.0,
+                    50.0
+                ]
+            },
+            "Canvas": {
+                "RenderMode": 0,
+                "SortOrder": 0,
+                "Visible": true
             }
         }
     ]
