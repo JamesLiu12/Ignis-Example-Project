@@ -3,217 +3,617 @@
         {
             "Handle": "19afbdaa-1bd4-4231-8daf-3e571ea5a8fa",
             "Type": 0,
-            "FilePath": "assets://scripts/ScriptModuleExports.cpp"
+            "FilePath": "assets://scripts/ScriptModuleExports.cpp",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "1e0ef12c-905a-4b8d-a470-38a4a8d2edd4",
             "Type": 0,
-            "FilePath": "assets://scripts/CameraController.cpp"
+            "FilePath": "assets://scripts/CameraController.cpp",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "2891743e-fd0f-4026-bd49-8f9065c05bbb",
             "Type": 1,
-            "FilePath": "resources://images/ibl_brdf_lut.png"
+            "FilePath": "resources://images/ibl_brdf_lut.png",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "28bb6238-edf7-4626-9fcd-4f4d8f111708",
             "Type": 1,
-            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Raw/Cerberus_N.tga"
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Raw/Cerberus_N.tga",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "2c973be5-99ed-4473-ac53-d9fdcbe174c6",
             "Type": 6,
-            "FilePath": "assets://audio/mrfriends-pistol-shot-233473.mp3"
+            "FilePath": "assets://audio/mrfriends-pistol-shot-233473.mp3",
+            "ImportOptions": {
+                "OptionsType": "Audio",
+                "Options": {
+                    "Stream": false
+                }
+            }
         },
         {
             "Handle": "2e8eee8d-72d3-401e-affe-e4f9e846f283",
             "Type": 4,
-            "FilePath": "assets://images/brown_photostudio_02_4k/brown_photostudio_02_4k_skybox.hdr"
+            "FilePath": "assets://images/brown_photostudio_02_4k/brown_photostudio_02_4k_skybox.hdr",
+            "ImportOptions": {
+                "OptionsType": "Equirect",
+                "Options": {
+                    "TexOptions": {
+                        "FlipVertical": false,
+                        "GenMipmaps": false,
+                        "InternalFormat": 2,
+                        "WrapS": 0,
+                        "WrapT": 0,
+                        "MinFilter": 5,
+                        "MagFilter": 1
+                    },
+                    "BakeSettings": {
+                        "EnvironmentResolution": 1024,
+                        "IrradianceResolution": 32,
+                        "PrefilterResolution": 256,
+                        "BrdfLUTResolution": 512
+                    }
+                }
+            }
         },
         {
             "Handle": "35c14a0a-15c3-40a6-aea8-76fb7205944d",
             "Type": 3,
-            "FilePath": "assets://models/Cottage/obj/cottage_obj.obj"
+            "FilePath": "assets://models/Cottage/obj/cottage_obj.obj",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "367cbf97-2af2-486c-9a61-1996ebc3ea4c",
             "Type": 0,
-            "FilePath": "assets://scripts/ButtonClick.cpp"
+            "FilePath": "assets://scripts/ButtonClick.cpp",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "374610cc-d2d3-402a-87ef-189be8514fdb",
             "Type": 1,
-            "FilePath": "assets://images/awesomeface.png"
+            "FilePath": "assets://images/awesomeface.png",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "3dd27a9d-3558-4a2e-8651-a88710e5acc5",
             "Type": 0,
-            "FilePath": "assets://models/Cottage/texture/cottage_description.txt"
+            "FilePath": "assets://models/Cottage/texture/cottage_description.txt",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "406f41d4-70d7-4d9a-8b0e-5ece9487872f",
             "Type": 3,
-            "FilePath": "assets://models/sphere.fbx"
+            "FilePath": "assets://models/sphere.fbx",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "41f3ba29-c6f2-4dc7-9581-ef2d93cf0fe2",
             "Type": 1,
-            "FilePath": "assets://models/backpack/diffuse.jpg"
+            "FilePath": "assets://models/backpack/diffuse.jpg",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "449e16a7-c36f-4329-a114-20556d0c4a31",
             "Type": 4,
-            "FilePath": "assets://images/brown_photostudio_02_4k/brown_photostudio_02_4k_irradiance.hdr"
+            "FilePath": "assets://images/brown_photostudio_02_4k/brown_photostudio_02_4k_irradiance.hdr",
+            "ImportOptions": {
+                "OptionsType": "Equirect",
+                "Options": {
+                    "TexOptions": {
+                        "FlipVertical": false,
+                        "GenMipmaps": false,
+                        "InternalFormat": 2,
+                        "WrapS": 0,
+                        "WrapT": 0,
+                        "MinFilter": 5,
+                        "MagFilter": 1
+                    },
+                    "BakeSettings": {
+                        "EnvironmentResolution": 1024,
+                        "IrradianceResolution": 32,
+                        "PrefilterResolution": 256,
+                        "BrdfLUTResolution": 512
+                    }
+                }
+            }
         },
         {
             "Handle": "46659a3c-507b-4b28-b5fa-2a0cc26dde33",
             "Type": 0,
-            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Raw/Masks.psd"
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Raw/Masks.psd",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "48ae75fb-cff0-41f8-9deb-aac2cd2e77d1",
             "Type": 1,
-            "FilePath": "assets://models/backpack/ao.jpg"
+            "FilePath": "assets://models/backpack/ao.jpg",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "4b64e8c3-d868-4ec9-9c54-f00e0ee128bd",
             "Type": 4,
-            "FilePath": "assets://images/citrus_orchard_puresky_4k/citrus_orchard_puresky_4k_skybox.hdr"
+            "FilePath": "assets://images/citrus_orchard_puresky_4k/citrus_orchard_puresky_4k_skybox.hdr",
+            "ImportOptions": {
+                "OptionsType": "Equirect",
+                "Options": {
+                    "TexOptions": {
+                        "FlipVertical": false,
+                        "GenMipmaps": false,
+                        "InternalFormat": 2,
+                        "WrapS": 0,
+                        "WrapT": 0,
+                        "MinFilter": 5,
+                        "MagFilter": 1
+                    },
+                    "BakeSettings": {
+                        "EnvironmentResolution": 1024,
+                        "IrradianceResolution": 32,
+                        "PrefilterResolution": 256,
+                        "BrdfLUTResolution": 512
+                    }
+                }
+            }
         },
         {
             "Handle": "4d3675f9-7f58-47a5-b7f1-be2564f68415",
             "Type": 1,
-            "FilePath": "assets://models/backpack/roughness.jpg"
+            "FilePath": "assets://models/backpack/roughness.jpg",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "509d2794-3d05-4246-8ef9-6c3b18c82b1d",
             "Type": 1,
-            "FilePath": "assets://models/backpack/specular.jpg"
+            "FilePath": "assets://models/backpack/specular.jpg",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "55804ac9-adfc-493f-bfc7-fbac02f60447",
             "Type": 1,
-            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_N.tga"
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_N.tga",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "5f42c410-59a5-41a6-9c43-dfed65d446a1",
             "Type": 1,
-            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Raw/Cerberus_UV.tga"
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Raw/Cerberus_UV.tga",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "6af227ab-f9dd-419a-b8c4-b13dbb9842cc",
             "Type": 4,
-            "FilePath": "assets://images/citrus_orchard_puresky_4k/citrus_orchard_puresky_4k_irradiance.hdr"
+            "FilePath": "assets://images/citrus_orchard_puresky_4k/citrus_orchard_puresky_4k_irradiance.hdr",
+            "ImportOptions": {
+                "OptionsType": "Equirect",
+                "Options": {
+                    "TexOptions": {
+                        "FlipVertical": false,
+                        "GenMipmaps": false,
+                        "InternalFormat": 2,
+                        "WrapS": 0,
+                        "WrapT": 0,
+                        "MinFilter": 5,
+                        "MagFilter": 1
+                    },
+                    "BakeSettings": {
+                        "EnvironmentResolution": 1024,
+                        "IrradianceResolution": 32,
+                        "PrefilterResolution": 256,
+                        "BrdfLUTResolution": 512
+                    }
+                }
+            }
         },
         {
             "Handle": "6e03dc21-b8fa-4937-b8bb-6eb301b7c65a",
             "Type": 0,
-            "FilePath": "assets://scenes/StartScene.igscene"
+            "FilePath": "assets://scenes/StartScene.igscene",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "7119bfc8-a9bd-4bc1-a107-0ff523e4a469",
             "Type": 3,
-            "FilePath": "assets://models/Cottage/fbx/cottage_fbx.fbx"
+            "FilePath": "assets://models/Cottage/fbx/cottage_fbx.fbx",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "73266cd1-4cb5-4234-8101-8902eac1c1dc",
             "Type": 3,
-            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Cerberus_LP.FBX"
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Cerberus_LP.FBX",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "748953b5-4bf8-44c9-a9ca-48be16893e93",
             "Type": 1,
-            "FilePath": "assets://models/Cottage/texture/cottage_textures/cottage_diffuse.png"
+            "FilePath": "assets://models/Cottage/texture/cottage_textures/cottage_diffuse.png",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "7ba9d5f0-3341-49f4-902e-53ba861abf3d",
             "Type": 1,
-            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_A.tga"
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_A.tga",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "7edc80ad-98ad-47bd-9992-9341a18a8782",
             "Type": 0,
-            "FilePath": "assets://scripts/RotateSelf.cpp"
+            "FilePath": "assets://scripts/RotateSelf.cpp",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "80c40dab-5791-440f-a317-1d9f02340424",
             "Type": 4,
-            "FilePath": "assets://images/brown_photostudio_02_4k.hdr"
+            "FilePath": "assets://images/brown_photostudio_02_4k.hdr",
+            "ImportOptions": {
+                "OptionsType": "Equirect",
+                "Options": {
+                    "TexOptions": {
+                        "FlipVertical": false,
+                        "GenMipmaps": false,
+                        "InternalFormat": 2,
+                        "WrapS": 0,
+                        "WrapT": 0,
+                        "MinFilter": 5,
+                        "MagFilter": 1
+                    },
+                    "BakeSettings": {
+                        "EnvironmentResolution": 1024,
+                        "IrradianceResolution": 32,
+                        "PrefilterResolution": 256,
+                        "BrdfLUTResolution": 512
+                    }
+                }
+            }
         },
         {
             "Handle": "84099b9f-7c1e-4bed-8ed6-6d0ac2be3a7e",
             "Type": 0,
-            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Disclaimer.txt"
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Disclaimer.txt",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "8d90f977-bf90-46fc-aa7a-1d90c0788806",
             "Type": 1,
-            "FilePath": "assets://models/backpack/normal.png"
+            "FilePath": "assets://models/backpack/normal.png",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "9496e8d0-e60f-42d3-9c94-e4175ce59830",
             "Type": 4,
-            "FilePath": "assets://images/citrus_orchard_puresky_4k/citrus_orchard_puresky_4k_radiance.hdr"
+            "FilePath": "assets://images/citrus_orchard_puresky_4k/citrus_orchard_puresky_4k_radiance.hdr",
+            "ImportOptions": {
+                "OptionsType": "Equirect",
+                "Options": {
+                    "TexOptions": {
+                        "FlipVertical": false,
+                        "GenMipmaps": false,
+                        "InternalFormat": 2,
+                        "WrapS": 0,
+                        "WrapT": 0,
+                        "MinFilter": 5,
+                        "MagFilter": 1
+                    },
+                    "BakeSettings": {
+                        "EnvironmentResolution": 1024,
+                        "IrradianceResolution": 32,
+                        "PrefilterResolution": 256,
+                        "BrdfLUTResolution": 512
+                    }
+                }
+            }
         },
         {
             "Handle": "97755f88-8f2b-49de-88a2-2ffa647997f6",
             "Type": 1,
-            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_R.tga"
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_R.tga",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "af921643-dce9-4609-847a-3f086e2f8946",
             "Type": 0,
-            "FilePath": "assets://TestAR.igar"
+            "FilePath": "assets://TestAR.igar",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "afeb7ffb-474d-4c49-81ce-37764e802e22",
             "Type": 3,
-            "FilePath": "assets://models/backpack/backpack.obj"
+            "FilePath": "assets://models/backpack/backpack.obj",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "b2e69651-ff5a-411f-bd87-cadc16ac6f4b",
             "Type": 5,
-            "FilePath": "assets://fonts/Inter-VariableFont_opsz,wght.ttf"
+            "FilePath": "assets://fonts/Inter-VariableFont_opsz,wght.ttf",
+            "ImportOptions": {
+                "OptionsType": "Font",
+                "Options": {
+                    "FontSize": 48.0,
+                    "AtlasWidth": 512,
+                    "AtlasHeight": 512
+                }
+            }
         },
         {
             "Handle": "b363e44b-848a-4f69-b3a7-dfef7af74601",
             "Type": 0,
-            "FilePath": "assets://models/backpack/backpack.mtl"
+            "FilePath": "assets://models/backpack/backpack.mtl",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "b6c3c697-f27a-43bd-a100-312d25f52006",
             "Type": 0,
-            "FilePath": "assets://models/backpack/source_attribution.txt"
+            "FilePath": "assets://models/backpack/source_attribution.txt",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "b776a4e7-c176-4808-8fb5-7afe3126fc84",
             "Type": 4,
-            "FilePath": "assets://images/brown_photostudio_02_4k/brown_photostudio_02_4k_radiance.hdr"
+            "FilePath": "assets://images/brown_photostudio_02_4k/brown_photostudio_02_4k_radiance.hdr",
+            "ImportOptions": {
+                "OptionsType": "Equirect",
+                "Options": {
+                    "TexOptions": {
+                        "FlipVertical": false,
+                        "GenMipmaps": false,
+                        "InternalFormat": 2,
+                        "WrapS": 0,
+                        "WrapT": 0,
+                        "MinFilter": 5,
+                        "MagFilter": 1
+                    },
+                    "BakeSettings": {
+                        "EnvironmentResolution": 1024,
+                        "IrradianceResolution": 32,
+                        "PrefilterResolution": 256,
+                        "BrdfLUTResolution": 512
+                    }
+                }
+            }
         },
         {
             "Handle": "c7c51ab6-aec7-4d83-9ba4-ad4939f26ebf",
             "Type": 1,
-            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Raw/Cerberus_AO.tga"
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Raw/Cerberus_AO.tga",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "dba03417-a764-4fda-afae-a60e3e48d6a9",
             "Type": 0,
-            "FilePath": "assets://models/Cottage/obj/cottage_obj.mtl"
+            "FilePath": "assets://models/Cottage/obj/cottage_obj.mtl",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         },
         {
             "Handle": "e777052f-b025-4add-aca1-2ec3f5736496",
             "Type": 1,
-            "FilePath": "assets://models/Cottage/texture/cottage_textures/cottage_normal.png"
+            "FilePath": "assets://models/Cottage/texture/cottage_textures/cottage_normal.png",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "ee6e0f50-16f4-4558-8e47-2a7a8cc9f17f",
             "Type": 1,
-            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_M.tga"
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Cerberus_M.tga",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
         },
         {
             "Handle": "fddad832-b2fb-40ad-bc7a-34feca749abe",
             "Type": 0,
-            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Cerberus.tbscene"
+            "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Cerberus.tbscene",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
         }
     ]
 }
