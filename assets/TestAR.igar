@@ -21,6 +21,11 @@
             "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Raw/Cerberus_N.tga"
         },
         {
+            "Handle": "2c973be5-99ed-4473-ac53-d9fdcbe174c6",
+            "Type": 6,
+            "FilePath": "assets://audio/mrfriends-pistol-shot-233473.mp3"
+        },
+        {
             "Handle": "2e8eee8d-72d3-401e-affe-e4f9e846f283",
             "Type": 4,
             "FilePath": "assets://images/brown_photostudio_02_4k/brown_photostudio_02_4k_skybox.hdr"

@@ -3,6 +3,20 @@
 class ButtonClick : public ignis::ScriptBehaviour
 {
 public:
+	void OnCreate() override
+	{
+		auto view = GetEntity().GetScene()->GetAllEntitiesWith<ignis::TagComponent, ignis::AudioSourceComponent>();
+		for (auto e : view)
+		{
+			ignis::Entity entity(e, GetEntity().GetScene());
+			if (entity.GetComponent<ignis::TagComponent>().Tag == "Gun")
+			{
+				m_gun = entity;
+				break;
+			}
+		}
+	}
+
 	void OnPointerClick(int btn) override
 	{
 		if (btn == 0)
@@ -10,6 +24,14 @@ public:
 			auto& text = GetEntity().GetComponent<ignis::UITextComponent>();
 			text.Color = m_colors[current_index];
 			current_index = (current_index + 1) % m_colors.size();
+		}
+
+		if (m_gun)
+		{
+			if (m_gun.HasComponent<ignis::AudioSourceComponent>())
+			{
+				GetScene()->GetAudioSystem()->Play(m_gun.GetID());
+			}
 		}
 	}
 
@@ -20,6 +42,7 @@ private:
 		glm::vec4(0.29f, 0.56f, 0.89f, 1.0f),
 		glm::vec4(0.98f, 0.75f, 0.15f, 1.0f),
 	};
+	ignis::Entity m_gun;
 	int current_index = 0;
 };
 

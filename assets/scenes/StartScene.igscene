@@ -43,6 +43,16 @@
             "Script": {
                 "ClassName": "RotateSelf",
                 "Enabled": true
+            },
+            "AudioSource": {
+                "Clip": "2c973be5-99ed-4473-ac53-d9fdcbe174c6",
+                "Volume": 10.0,
+                "Pitch": 1.0,
+                "Loop": false,
+                "PlayOnStart": false,
+                "Spatial": true,
+                "MinDistance": 1.0,
+                "MaxDistance": 50.0
             }
         },
         {
@@ -347,6 +357,9 @@
             "Script": {
                 "ClassName": "CameraController",
                 "Enabled": true
+            },
+            "AudioListener": {
+                "Primary": true
             }
         },
         {
