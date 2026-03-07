@@ -57,7 +57,7 @@
             "ImportOptions": {
                 "OptionsType": "Audio",
                 "Options": {
-                    "Stream": false
+                    "Stream": true
                 }
             }
         },
