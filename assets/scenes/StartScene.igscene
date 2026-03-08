@@ -31,14 +31,16 @@
             },
             "Mesh": {
                 "Mesh": "73266cd1-4cb5-4234-8101-8902eac1c1dc",
-                "MaterialData": {
-                    "AlbedoMap": "7ba9d5f0-3341-49f4-902e-53ba861abf3d",
-                    "NormalMap": "55804ac9-adfc-493f-bfc7-fbac02f60447",
-                    "MetalnessMap": "ee6e0f50-16f4-4558-8e47-2a7a8cc9f17f",
-                    "RoughnessMap": "97755f88-8f2b-49de-88a2-2ffa647997f6",
-                    "EmissiveMap": "5f42c410-59a5-41a6-9c43-dfed65d446a1",
-                    "AOMap": "c7c51ab6-aec7-4d83-9ba4-ad4939f26ebf"
-                }
+                "MaterialSlots": [
+                    {
+                        "AlbedoMap": "7ba9d5f0-3341-49f4-902e-53ba861abf3d",
+                        "NormalMap": "55804ac9-adfc-493f-bfc7-fbac02f60447",
+                        "MetalnessMap": "ee6e0f50-16f4-4558-8e47-2a7a8cc9f17f",
+                        "RoughnessMap": "97755f88-8f2b-49de-88a2-2ffa647997f6",
+                        "EmissiveMap": "5f42c410-59a5-41a6-9c43-dfed65d446a1",
+                        "AOMap": "c7c51ab6-aec7-4d83-9ba4-ad4939f26ebf"
+                    }
+                ]
             },
             "Script": {
                 "ClassName": "RotateSelf",
@@ -392,14 +394,16 @@
             },
             "Mesh": {
                 "Mesh": "7119bfc8-a9bd-4bc1-a107-0ff523e4a469",
-                "MaterialData": {
-                    "AlbedoMap": "748953b5-4bf8-44c9-a9ca-48be16893e93",
-                    "NormalMap": "e777052f-b025-4add-aca1-2ec3f5736496",
-                    "MetalnessMap": "bfb5ba92-cdf0-4a03-9177-0b0ca7162f63",
-                    "RoughnessMap": "05fd90ee-47ad-4bd0-9209-b131265303f0",
-                    "EmissiveMap": "bfb5ba92-cdf0-4a03-9177-0b0ca7162f63",
-                    "AOMap": "d49cbf9f-d5cc-4217-a92b-1721dff71524"
-                }
+                "MaterialSlots": [
+                    {
+                        "AlbedoMap": "748953b5-4bf8-44c9-a9ca-48be16893e93",
+                        "NormalMap": "e777052f-b025-4add-aca1-2ec3f5736496",
+                        "MetalnessMap": "bfb5ba92-cdf0-4a03-9177-0b0ca7162f63",
+                        "RoughnessMap": "05fd90ee-47ad-4bd0-9209-b131265303f0",
+                        "EmissiveMap": "bfb5ba92-cdf0-4a03-9177-0b0ca7162f63",
+                        "AOMap": "d49cbf9f-d5cc-4217-a92b-1721dff71524"
+                    }
+                ]
             },
             "Script": {
                 "ClassName": "RotateSelf",
