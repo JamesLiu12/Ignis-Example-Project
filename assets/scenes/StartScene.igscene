@@ -72,6 +72,149 @@
             }
         },
         {
+            "ID": "04782c75-a269-447a-b124-4f0d171e9671",
+            "Tag": "Ball 1",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    5.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Mesh": {
+                "Mesh": "406f41d4-70d7-4d9a-8b0e-5ece9487872f",
+                "MaterialSlots": [
+                    {
+                        "AlbedoMap": "3e06adaa-3b1a-4b0a-9eef-ec84aed4992c",
+                        "AlbedoColor": [
+                            0.5203462839126587,
+                            0.5203462839126587,
+                            0.5203462839126587,
+                            1.0
+                        ],
+                        "NormalMap": "d1c87e11-3cd9-4c49-a833-335186924680",
+                        "MetalnessMap": "eaa2b86f-116f-4317-a3c1-027805a4b9e8",
+                        "MetallicValue": 0.0,
+                        "RoughnessMap": "3e0cd657-26ef-405c-8233-a54344739580",
+                        "RoughnessValue": 0.6000000238418579,
+                        "EmissiveMap": "eaa2b86f-116f-4317-a3c1-027805a4b9e8",
+                        "EmissiveColor": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "EmissiveIntensity": 1.0,
+                        "AOMap": "3e06adaa-3b1a-4b0a-9eef-ec84aed4992c"
+                    }
+                ]
+            },
+            "Script": {
+                "ClassName": "TestCollision",
+                "Enabled": true
+            },
+            "RigidBody": {
+                "BodyType": 1,
+                "Mass": 1.0,
+                "LinearDrag": 0.0,
+                "AngularDrag": 0.05000000074505806,
+                "UseGravity": true,
+                "IsKinematic": false,
+                "LockPositionX": false,
+                "LockPositionY": false,
+                "LockPositionZ": false,
+                "LockRotationX": false,
+                "LockRotationY": false,
+                "LockRotationZ": false
+            },
+            "SphereCollider": {
+                "Radius": 0.5,
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Friction": 0.5,
+                "Restitution": 3.0,
+                "IsTrigger": false
+            }
+        },
+        {
+            "ID": "49428c01-35bd-4faa-8a3e-5088d0c28095",
+            "Tag": "Invisible titled ground",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    15.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "RigidBody": {
+                "BodyType": 0,
+                "Mass": 1.0,
+                "LinearDrag": 0.0,
+                "AngularDrag": 0.05000000074505806,
+                "UseGravity": true,
+                "IsKinematic": false,
+                "LockPositionX": false,
+                "LockPositionY": false,
+                "LockPositionZ": false,
+                "LockRotationX": false,
+                "LockRotationY": false,
+                "LockRotationZ": false
+            },
+            "BoxCollider": {
+                "HalfSize": [
+                    0.5,
+                    0.5,
+                    0.5
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Friction": 0.5,
+                "Restitution": 0.30000001192092896,
+                "IsTrigger": false
+            }
+        },
+        {
             "ID": "5d3c2d98-173e-4b4b-b441-a76bdde3fcc8",
             "Tag": "Spot Light",
             "Relationship": {
@@ -227,6 +370,64 @@
             }
         },
         {
+            "ID": "888e436d-6815-4394-8475-a708cbcb3e2e",
+            "Tag": "Invisible flat ground",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    5.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "RigidBody": {
+                "BodyType": 0,
+                "Mass": 1.0,
+                "LinearDrag": 0.0,
+                "AngularDrag": 0.05000000074505806,
+                "UseGravity": true,
+                "IsKinematic": false,
+                "LockPositionX": false,
+                "LockPositionY": false,
+                "LockPositionZ": false,
+                "LockRotationX": false,
+                "LockRotationY": false,
+                "LockRotationZ": false
+            },
+            "BoxCollider": {
+                "HalfSize": [
+                    0.5,
+                    0.5,
+                    0.5
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Friction": 0.5,
+                "Restitution": 0.30000001192092896,
+                "IsTrigger": false
+            }
+        },
+        {
             "ID": "92e956b2-825b-44e3-841e-f70d4089d9a9",
             "Tag": "Button",
             "Relationship": {
@@ -362,7 +563,7 @@
                 "Primary": true,
                 "FixedAspectRatio": false,
                 "ProjectionType": 0,
-                "AspectRatio": 1.6270784139633179,
+                "AspectRatio": 1.4822803735733032,
                 "PerspectiveFOV": 77.57499694824219,
                 "PerspectiveNear": 0.009999999776482582,
                 "PerspectiveFar": 1000.0,
@@ -653,6 +854,91 @@
                 "RenderMode": 0,
                 "SortOrder": 0,
                 "Visible": true
+            }
+        },
+        {
+            "ID": "fa51875f-bbf0-408f-957e-30609f9e7e16",
+            "Tag": "Ball 2",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    5.0,
+                    5.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Mesh": {
+                "Mesh": "406f41d4-70d7-4d9a-8b0e-5ece9487872f",
+                "MaterialSlots": [
+                    {
+                        "AlbedoMap": "748953b5-4bf8-44c9-a9ca-48be16893e93",
+                        "AlbedoColor": [
+                            0.5203462839126587,
+                            0.5203462839126587,
+                            0.5203462839126587,
+                            1.0
+                        ],
+                        "NormalMap": "d1c87e11-3cd9-4c49-a833-335186924680",
+                        "MetalnessMap": "eaa2b86f-116f-4317-a3c1-027805a4b9e8",
+                        "MetallicValue": 0.0,
+                        "RoughnessMap": "3e0cd657-26ef-405c-8233-a54344739580",
+                        "RoughnessValue": 0.6000000238418579,
+                        "EmissiveMap": "eaa2b86f-116f-4317-a3c1-027805a4b9e8",
+                        "EmissiveColor": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "EmissiveIntensity": 1.0,
+                        "AOMap": "3e06adaa-3b1a-4b0a-9eef-ec84aed4992c"
+                    }
+                ]
+            },
+            "Script": {
+                "ClassName": "TestCollision",
+                "Enabled": true
+            },
+            "RigidBody": {
+                "BodyType": 1,
+                "Mass": 1.0,
+                "LinearDrag": 0.0,
+                "AngularDrag": 0.05000000074505806,
+                "UseGravity": true,
+                "IsKinematic": false,
+                "LockPositionX": false,
+                "LockPositionY": false,
+                "LockPositionZ": false,
+                "LockRotationX": false,
+                "LockRotationY": false,
+                "LockRotationZ": false
+            },
+            "SphereCollider": {
+                "Radius": 0.5,
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Friction": 0.5,
+                "Restitution": 3.0,
+                "IsTrigger": false
             }
         }
     ]
