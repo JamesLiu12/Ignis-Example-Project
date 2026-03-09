@@ -8,7 +8,7 @@ public:
 		if (other.HasComponent<ignis::TagComponent>())
 		{
 			auto& tag = other.GetComponent<ignis::TagComponent>();
-			ignis::Log::Info("💥 Collision Enter: {} hit {}", 
+			ignis::Log::Info("[COLLISION ENTER] {} hit {}", 
 				GetEntity().GetComponent<ignis::TagComponent>().Tag, 
 				tag.Tag);
 		}
@@ -19,7 +19,7 @@ public:
 		if (other.HasComponent<ignis::TagComponent>())
 		{
 			auto& tag = other.GetComponent<ignis::TagComponent>();
-			ignis::Log::Info("🔵 Collision Exit: {} separated from {}", 
+			ignis::Log::Info("[COLLISION EXIT] {} separated from {}", 
 				GetEntity().GetComponent<ignis::TagComponent>().Tag, 
 				tag.Tag);
 		}
@@ -30,7 +30,7 @@ public:
 		if (other.HasComponent<ignis::TagComponent>())
 		{
 			auto& tag = other.GetComponent<ignis::TagComponent>();
-			ignis::Log::Info("🟢 Trigger Enter: {} entered {}", 
+			ignis::Log::Info("[TRIGGER ENTER] {} entered {}", 
 				tag.Tag,
 				GetEntity().GetComponent<ignis::TagComponent>().Tag);
 		}
@@ -41,7 +41,7 @@ public:
 		if (other.HasComponent<ignis::TagComponent>())
 		{
 			auto& tag = other.GetComponent<ignis::TagComponent>();
-			ignis::Log::Info("🔴 Trigger Exit: {} left {}", 
+			ignis::Log::Info("[TRIGGER EXIT] {} left {}", 
 				tag.Tag,
 				GetEntity().GetComponent<ignis::TagComponent>().Tag);
 		}
