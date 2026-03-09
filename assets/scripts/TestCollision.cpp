@@ -47,3 +47,5 @@ public:
 		}
 	}
 };
+
+IGNIS_SCRIPT(TestCollision)
