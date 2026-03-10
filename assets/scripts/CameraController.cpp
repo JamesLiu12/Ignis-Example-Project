@@ -5,16 +5,27 @@ class CameraController : public ignis::ScriptBehaviour
 public:
 	void OnCreate() override
 	{
+		ignis::Input::LockCursor();
+
 		m_mouse_x = ignis::Input::GetMouseX();
 		m_mouse_y = ignis::Input::GetMouseY();
 	}
 
 	void OnUpdate(float dt) override
 	{
+		if (!ignis::Input::IsCursorLocked()) return;
+
 		auto& tf = GetEntity().GetComponent<ignis::TransformComponent>();
 
 		double cur_x = ignis::Input::GetMouseX();
 		double cur_y = ignis::Input::GetMouseY();
+
+		if (ignis::Input::ConsumeCursorJustLocked())
+		{
+			m_mouse_x = cur_x;
+			m_mouse_y = cur_y;
+			return;
+		}
 
 		float dx = (float)(cur_x - m_mouse_x);
 		float dy = (float)(cur_y - m_mouse_y);
