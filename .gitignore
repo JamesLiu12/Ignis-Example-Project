@@ -26,3 +26,4 @@ logs/
 # Binaries
 bin/
 .DS_Store
+/Exports
