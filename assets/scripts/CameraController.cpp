@@ -13,6 +13,13 @@ public:
 
 	void OnUpdate(float dt) override
 	{
+		// Press ESC to show cursor
+		if (ignis::Input::IsKeyPressed(ignis::KeyCode::Escape))
+		{
+			ignis::Input::ShowCursor();
+			return;
+		}
+		
 		if (!ignis::Input::IsCursorLocked()) return;
 
 		auto& tf = GetEntity().GetComponent<ignis::TransformComponent>();
