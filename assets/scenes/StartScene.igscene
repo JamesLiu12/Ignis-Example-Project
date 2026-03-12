@@ -40,11 +40,61 @@
                             1.0,
                             1.0
                         ],
+                        "AlbedoMapUVIndex": 0,
+                        "AlbedoMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "NormalMap": "55804ac9-adfc-493f-bfc7-fbac02f60447",
+                        "NormalMapUVIndex": 0,
+                        "NormalMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "MetalnessMap": "ee6e0f50-16f4-4558-8e47-2a7a8cc9f17f",
                         "MetallicValue": 0.0,
+                        "MetallicChannel": 0,
+                        "MetalnessMapUVIndex": 0,
+                        "MetalnessMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "RoughnessMap": "97755f88-8f2b-49de-88a2-2ffa647997f6",
                         "RoughnessValue": 0.5,
+                        "RoughnessChannel": 0,
+                        "RoughnessMapUVIndex": 0,
+                        "RoughnessMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "EmissiveMap": "5f42c410-59a5-41a6-9c43-dfed65d446a1",
                         "EmissiveColor": [
                             0.0,
@@ -52,7 +102,73 @@
                             0.0
                         ],
                         "EmissiveIntensity": 1.0,
-                        "AOMap": "c7c51ab6-aec7-4d83-9ba4-ad4939f26ebf"
+                        "EmissiveMapUVIndex": 0,
+                        "EmissiveMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "AOMap": "c7c51ab6-aec7-4d83-9ba4-ad4939f26ebf",
+                        "AOMapUVIndex": 0,
+                        "AOMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "ClearcoatFactor": 0.0,
+                        "ClearcoatRoughnessFactor": 0.0,
+                        "ClearcoatMap": "00000000-0000-0000-0000-000000000000",
+                        "ClearcoatMapUVIndex": 0,
+                        "ClearcoatMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "ClearcoatRoughnessMap": "00000000-0000-0000-0000-000000000000",
+                        "ClearcoatRoughnessMapUVIndex": 0,
+                        "ClearcoatRoughnessMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "ClearcoatNormalMap": "00000000-0000-0000-0000-000000000000",
+                        "ClearcoatNormalMapUVIndex": 0,
+                        "ClearcoatNormalMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "DoubleSided": false
                     }
                 ]
             },
@@ -110,11 +226,61 @@
                             0.5203462839126587,
                             1.0
                         ],
+                        "AlbedoMapUVIndex": 0,
+                        "AlbedoMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "NormalMap": "d1c87e11-3cd9-4c49-a833-335186924680",
+                        "NormalMapUVIndex": 0,
+                        "NormalMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "MetalnessMap": "eaa2b86f-116f-4317-a3c1-027805a4b9e8",
                         "MetallicValue": 0.0,
+                        "MetallicChannel": 0,
+                        "MetalnessMapUVIndex": 0,
+                        "MetalnessMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "RoughnessMap": "3e0cd657-26ef-405c-8233-a54344739580",
                         "RoughnessValue": 0.6000000238418579,
+                        "RoughnessChannel": 0,
+                        "RoughnessMapUVIndex": 0,
+                        "RoughnessMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "EmissiveMap": "eaa2b86f-116f-4317-a3c1-027805a4b9e8",
                         "EmissiveColor": [
                             0.0,
@@ -122,7 +288,73 @@
                             0.0
                         ],
                         "EmissiveIntensity": 1.0,
-                        "AOMap": "3e06adaa-3b1a-4b0a-9eef-ec84aed4992c"
+                        "EmissiveMapUVIndex": 0,
+                        "EmissiveMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "AOMap": "3e06adaa-3b1a-4b0a-9eef-ec84aed4992c",
+                        "AOMapUVIndex": 0,
+                        "AOMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "ClearcoatFactor": 0.0,
+                        "ClearcoatRoughnessFactor": 0.0,
+                        "ClearcoatMap": "00000000-0000-0000-0000-000000000000",
+                        "ClearcoatMapUVIndex": 0,
+                        "ClearcoatMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "ClearcoatRoughnessMap": "00000000-0000-0000-0000-000000000000",
+                        "ClearcoatRoughnessMapUVIndex": 0,
+                        "ClearcoatRoughnessMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "ClearcoatNormalMap": "00000000-0000-0000-0000-000000000000",
+                        "ClearcoatNormalMapUVIndex": 0,
+                        "ClearcoatNormalMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "DoubleSided": false
                     }
                 ]
             },
@@ -563,7 +795,7 @@
                 "Primary": true,
                 "FixedAspectRatio": false,
                 "ProjectionType": 0,
-                "AspectRatio": 1.4822803735733032,
+                "AspectRatio": 1.5911730527877808,
                 "PerspectiveFOV": 77.57499694824219,
                 "PerspectiveNear": 0.009999999776482582,
                 "PerspectiveFar": 1000.0,
@@ -618,11 +850,61 @@
                             1.0,
                             1.0
                         ],
+                        "AlbedoMapUVIndex": 0,
+                        "AlbedoMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "NormalMap": "e777052f-b025-4add-aca1-2ec3f5736496",
+                        "NormalMapUVIndex": 0,
+                        "NormalMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "MetalnessMap": "bfb5ba92-cdf0-4a03-9177-0b0ca7162f63",
                         "MetallicValue": 0.0,
+                        "MetallicChannel": 0,
+                        "MetalnessMapUVIndex": 0,
+                        "MetalnessMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "RoughnessMap": "05fd90ee-47ad-4bd0-9209-b131265303f0",
                         "RoughnessValue": 0.5,
+                        "RoughnessChannel": 0,
+                        "RoughnessMapUVIndex": 0,
+                        "RoughnessMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "EmissiveMap": "bfb5ba92-cdf0-4a03-9177-0b0ca7162f63",
                         "EmissiveColor": [
                             0.0,
@@ -630,7 +912,73 @@
                             0.0
                         ],
                         "EmissiveIntensity": 1.0,
-                        "AOMap": "d49cbf9f-d5cc-4217-a92b-1721dff71524"
+                        "EmissiveMapUVIndex": 0,
+                        "EmissiveMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "AOMap": "d49cbf9f-d5cc-4217-a92b-1721dff71524",
+                        "AOMapUVIndex": 0,
+                        "AOMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "ClearcoatFactor": 0.0,
+                        "ClearcoatRoughnessFactor": 0.0,
+                        "ClearcoatMap": "00000000-0000-0000-0000-000000000000",
+                        "ClearcoatMapUVIndex": 0,
+                        "ClearcoatMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "ClearcoatRoughnessMap": "00000000-0000-0000-0000-000000000000",
+                        "ClearcoatRoughnessMapUVIndex": 0,
+                        "ClearcoatRoughnessMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "ClearcoatNormalMap": "00000000-0000-0000-0000-000000000000",
+                        "ClearcoatNormalMapUVIndex": 0,
+                        "ClearcoatNormalMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "DoubleSided": false
                     }
                 ]
             },
@@ -895,11 +1243,61 @@
                             0.5203462839126587,
                             1.0
                         ],
+                        "AlbedoMapUVIndex": 0,
+                        "AlbedoMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "NormalMap": "d1c87e11-3cd9-4c49-a833-335186924680",
+                        "NormalMapUVIndex": 0,
+                        "NormalMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "MetalnessMap": "eaa2b86f-116f-4317-a3c1-027805a4b9e8",
                         "MetallicValue": 0.0,
+                        "MetallicChannel": 0,
+                        "MetalnessMapUVIndex": 0,
+                        "MetalnessMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "RoughnessMap": "3e0cd657-26ef-405c-8233-a54344739580",
                         "RoughnessValue": 0.6000000238418579,
+                        "RoughnessChannel": 0,
+                        "RoughnessMapUVIndex": 0,
+                        "RoughnessMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
                         "EmissiveMap": "eaa2b86f-116f-4317-a3c1-027805a4b9e8",
                         "EmissiveColor": [
                             0.0,
@@ -907,7 +1305,73 @@
                             0.0
                         ],
                         "EmissiveIntensity": 1.0,
-                        "AOMap": "3e06adaa-3b1a-4b0a-9eef-ec84aed4992c"
+                        "EmissiveMapUVIndex": 0,
+                        "EmissiveMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "AOMap": "3e06adaa-3b1a-4b0a-9eef-ec84aed4992c",
+                        "AOMapUVIndex": 0,
+                        "AOMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "ClearcoatFactor": 0.0,
+                        "ClearcoatRoughnessFactor": 0.0,
+                        "ClearcoatMap": "00000000-0000-0000-0000-000000000000",
+                        "ClearcoatMapUVIndex": 0,
+                        "ClearcoatMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "ClearcoatRoughnessMap": "00000000-0000-0000-0000-000000000000",
+                        "ClearcoatRoughnessMapUVIndex": 0,
+                        "ClearcoatRoughnessMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "ClearcoatNormalMap": "00000000-0000-0000-0000-000000000000",
+                        "ClearcoatNormalMapUVIndex": 0,
+                        "ClearcoatNormalMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "DoubleSided": false
                     }
                 ]
             },
