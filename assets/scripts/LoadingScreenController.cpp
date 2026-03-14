@@ -18,8 +18,11 @@ public:
 	{
 		if (!m_loading_started)
 		{
+			// Resolve the asset path to absolute path
+			std::filesystem::path scene_path = VFS::Resolve("assets://scenes/StartScene.igscene");
+			
 			// Start async load of the heavy race scene (StartScene)
-			m_loader.LoadSceneAsync("assets/scenes/StartScene.igscene");
+			m_loader.LoadSceneAsync(scene_path);
 			m_loading_started = true;
 			Log::Info("LoadingScreenController: Started async loading of StartScene (race level)...");
 		}
