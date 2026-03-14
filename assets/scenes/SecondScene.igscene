@@ -103,12 +103,12 @@
                 ]
             },
             "Text": {
-                "Text": "Click T to return to first scene",
+                "Text": "So it will go to loading scene first\nThis will take some times\nClick T to return to first scene\n",
                 "Font": "b2e69651-ff5a-411f-bd87-cadc16ac6f4b",
                 "Color": [
-                    1.0,
-                    1.0,
-                    1.0
+                    0.0,
+                    0.8480392098426819,
+                    0.5736735463142395
                 ],
                 "Alpha": 1.0,
                 "Scale": 1.0

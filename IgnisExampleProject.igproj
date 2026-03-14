@@ -2,7 +2,7 @@
     "ProjectName": "IgnisExampleProject",
     "AssetDirectory": "assets/",
     "AssetRegistry": "assets/TestAR.igar",
-    "StartScene": "scenes/StartScene.igscene",
+    "StartScene": "scenes/SecondScene.igscene",
     "ScriptModule": {
         "Name": "IgnisExampleProject",
         "Directory": "bin/{Platform}/{Config}/",
