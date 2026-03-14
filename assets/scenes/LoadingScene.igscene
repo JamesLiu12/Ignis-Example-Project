@@ -1,0 +1,163 @@
+{
+    "SceneName": "LoadingScene",
+    "Entities": [
+        {
+            "ID": "110cb8cd-aba4-4809-8d87-d2e76585bdf5",
+            "Tag": "Entity",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    6.5
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Camera": {
+                "Primary": true,
+                "FixedAspectRatio": false,
+                "ProjectionType": 0,
+                "AspectRatio": 1.4822803735733032,
+                "PerspectiveFOV": 45.0,
+                "PerspectiveNear": 0.009999999776482582,
+                "PerspectiveFar": 1000.0,
+                "OrthographicSize": 10.0,
+                "OrthographicNear": -1.0,
+                "OrthographicFar": 1.0
+            },
+            "Script": {
+                "ClassName": "CameraController",
+                "Enabled": true
+            }
+        },
+        {
+            "ID": "15bc2c10-8f9a-4d30-85a3-2860e1bedb96",
+            "Tag": "Entity",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Script": {
+                "ClassName": "LoadingScreenController",
+                "Enabled": true
+            }
+        },
+        {
+            "ID": "49b834b2-f867-42f1-9cc9-68e914bb64bf",
+            "Tag": "Entity",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    4.300000190734863
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Text": {
+                "Text": "Loading",
+                "Font": "b2e69651-ff5a-411f-bd87-cadc16ac6f4b",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Alpha": 1.0,
+                "Scale": 1.0
+            }
+        },
+        {
+            "ID": "70201aab-6019-4c9c-9400-389e5018b841",
+            "Tag": "Environment",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "SkyLight": {
+                "Environment": "80c40dab-5791-440f-a317-1d9f02340424",
+                "Intensity": 1.0,
+                "Rotation": 0.0,
+                "Tint": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "SkyboxLod": 0.0
+            }
+        }
+    ]
+}

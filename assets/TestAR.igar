@@ -437,6 +437,14 @@
             }
         },
         {
+            "Handle": "8fb6cc1c-201c-4c82-9ed2-6d5d47fa87a8",
+            "Type": 0,
+            "FilePath": "assets://scenes/LoadingScene.igscene",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
+        },
+        {
             "Handle": "9496e8d0-e60f-42d3-9c94-e4175ce59830",
             "Type": 4,
             "FilePath": "assets://images/citrus_orchard_puresky_4k/citrus_orchard_puresky_4k_radiance.hdr",

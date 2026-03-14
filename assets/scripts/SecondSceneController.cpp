@@ -4,25 +4,34 @@ using namespace ignis;
 
 class SecondSceneController : public ScriptBehaviour
 {
+private:
+	bool m_t_was_pressed = false;
+
 public:
 	void OnCreate() override
 	{
-		Log::Info("SecondSceneController: Scene loaded - Press R to go back to StartScene");
+		Log::Info("SecondSceneController: Menu Scene loaded - Press T to start race (will show loading screen)");
 	}
 
 	void OnUpdate(float dt) override
 	{
-		// Check if T key is pressed
-		if (Input::IsKeyPressed(KeyCode::T))
+		// Detect single key press by tracking previous state
+		bool t_pressed = Input::IsKeyPressed(KeyCode::T);
+		
+		if (t_pressed && !m_t_was_pressed)
 		{
-			Log::Info("SecondSceneController: R pressed - Loading StartScene...");
-			SceneManager::LoadScene("assets/scenes/StartScene.igscene");
+			Log::Info("SecondSceneController: Starting race - transitioning to loading screen...");
+			
+			// Go to loading scene first (loads instantly)
+			SceneManager::LoadScene("assets/scenes/LoadingScene.igscene");
 		}
+		
+		m_t_was_pressed = t_pressed;
 	}
 
 	void OnDestroy() override
 	{
-		Log::Info("SecondSceneController: Leaving SecondScene");
+		// Don't log during shutdown - logger may be destroyed
 	}
 };
 
