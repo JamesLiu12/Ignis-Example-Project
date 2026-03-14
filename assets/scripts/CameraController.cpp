@@ -44,8 +44,8 @@ public:
 		tf.Rotation.x -= dy * m_sensitivity;
 
 		tf.Rotation.x = glm::clamp(tf.Rotation.x,
-			glm::radians(-89.0f),
-			glm::radians(89.0f));
+			-89.0f,
+			89.0f);
 
 		float speed = m_speed;
 		if (ignis::Input::IsKeyPressed(ignis::KeyCode::LeftShift))
@@ -76,7 +76,7 @@ private:
 	double m_mouse_x = 0.0;
 	double m_mouse_y = 0.0;
 
-	float  m_sensitivity = 0.002f;
+	float  m_sensitivity = 0.115f;
 	float  m_speed = 5.0f;
 	float  m_boost_factor = 3.0f;
 };
