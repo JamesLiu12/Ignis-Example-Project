@@ -1,0 +1,335 @@
+{
+    "SceneName": "SecondScene",
+    "Entities": [
+        {
+            "ID": "156c4b10-e915-4841-8e23-793a9897f93b",
+            "Tag": "SceneTransitionController",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
+        },
+        {
+            "ID": "63a6a4c2-f494-4404-a2a8-979ec4941793",
+            "Tag": "Environment",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "SkyLight": {
+                "Environment": "80c40dab-5791-440f-a317-1d9f02340424",
+                "Intensity": 0.5,
+                "Rotation": 146.8159942626953,
+                "Tint": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "SkyboxLod": 0.0
+            },
+            "Script": {
+                "ClassName": "SecondSceneController",
+                "Enabled": true
+            }
+        },
+        {
+            "ID": "af10a8ff-1262-497d-9a86-934dfeeae6ed",
+            "Tag": "Title",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    -2.299999952316284,
+                    1.7000000476837158,
+                    -9.800000190734863
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Text": {
+                "Text": "Click T to return to first scene",
+                "Font": "b2e69651-ff5a-411f-bd87-cadc16ac6f4b",
+                "Color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Alpha": 1.0,
+                "Scale": 1.0
+            }
+        },
+        {
+            "ID": "d2aef129-445d-4165-af95-502edd6cbdba",
+            "Tag": "Camera",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Camera": {
+                "Primary": true,
+                "FixedAspectRatio": false,
+                "ProjectionType": 0,
+                "AspectRatio": 1.4822803735733032,
+                "PerspectiveFOV": 45.0,
+                "PerspectiveNear": 0.009999999776482582,
+                "PerspectiveFar": 1000.0,
+                "OrthographicSize": 10.0,
+                "OrthographicNear": -1.0,
+                "OrthographicFar": 1.0
+            },
+            "Script": {
+                "ClassName": "CameraController",
+                "Enabled": true
+            }
+        },
+        {
+            "ID": "f097b92e-1758-4008-94f7-10708f3cdf35",
+            "Tag": "Entity",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    -6.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Mesh": {
+                "Mesh": "406f41d4-70d7-4d9a-8b0e-5ece9487872f",
+                "MaterialSlots": [
+                    {
+                        "AlbedoMap": "3e06adaa-3b1a-4b0a-9eef-ec84aed4992c",
+                        "AlbedoColor": [
+                            0.5203462839126587,
+                            0.5203462839126587,
+                            0.5203462839126587,
+                            1.0
+                        ],
+                        "AlbedoMapUVIndex": 0,
+                        "AlbedoMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "NormalMap": "d1c87e11-3cd9-4c49-a833-335186924680",
+                        "NormalMapUVIndex": 0,
+                        "NormalMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "MetalnessMap": "eaa2b86f-116f-4317-a3c1-027805a4b9e8",
+                        "MetallicValue": 0.0,
+                        "MetallicChannel": 0,
+                        "MetalnessMapUVIndex": 0,
+                        "MetalnessMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "RoughnessMap": "3e0cd657-26ef-405c-8233-a54344739580",
+                        "RoughnessValue": 0.6000000238418579,
+                        "RoughnessChannel": 0,
+                        "RoughnessMapUVIndex": 0,
+                        "RoughnessMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "EmissiveMap": "eaa2b86f-116f-4317-a3c1-027805a4b9e8",
+                        "EmissiveColor": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "EmissiveIntensity": 1.0,
+                        "EmissiveMapUVIndex": 0,
+                        "EmissiveMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "AOMap": "3e06adaa-3b1a-4b0a-9eef-ec84aed4992c",
+                        "AOMapUVIndex": 0,
+                        "AOMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "ClearcoatFactor": 0.0,
+                        "ClearcoatRoughnessFactor": 0.0,
+                        "ClearcoatMap": "00000000-0000-0000-0000-000000000000",
+                        "ClearcoatMapUVIndex": 0,
+                        "ClearcoatMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "ClearcoatRoughnessMap": "00000000-0000-0000-0000-000000000000",
+                        "ClearcoatRoughnessMapUVIndex": 0,
+                        "ClearcoatRoughnessMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "ClearcoatNormalMap": "00000000-0000-0000-0000-000000000000",
+                        "ClearcoatNormalMapUVIndex": 0,
+                        "ClearcoatNormalMapUVTransform": {
+                            "Offset": [
+                                0.0,
+                                0.0
+                            ],
+                            "Scale": [
+                                1.0,
+                                1.0
+                            ],
+                            "Rotation": 0.0
+                        },
+                        "DoubleSided": false
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -549,6 +549,14 @@
             }
         },
         {
+            "Handle": "c1ba580b-8303-48a6-bdfd-ce345d43681f",
+            "Type": 0,
+            "FilePath": "assets://scenes/SecondScene.igscene",
+            "ImportOptions": {
+                "OptionsType": "None"
+            }
+        },
+        {
             "Handle": "c7c51ab6-aec7-4d83-9ba4-ad4939f26ebf",
             "Type": 1,
             "FilePath": "assets://models/Cerberus_by_Andrew_Maximov/Textures/Raw/Cerberus_AO.tga",

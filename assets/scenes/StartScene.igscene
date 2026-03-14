@@ -552,7 +552,7 @@
                 ]
             },
             "Text": {
-                "Text": "Hello World, hi",
+                "Text": "Press R to go to second scene",
                 "Font": "b2e69651-ff5a-411f-bd87-cadc16ac6f4b",
                 "Color": [
                     0.2431757003068924,
@@ -795,7 +795,7 @@
                 "Primary": true,
                 "FixedAspectRatio": false,
                 "ProjectionType": 0,
-                "AspectRatio": 1.5911730527877808,
+                "AspectRatio": 1.4822803735733032,
                 "PerspectiveFOV": 77.57499694824219,
                 "PerspectiveNear": 0.009999999776482582,
                 "PerspectiveFar": 1000.0,
@@ -1091,6 +1091,39 @@
                 ],
                 "FillDirection": 0,
                 "Visible": true
+            }
+        },
+        {
+            "ID": "e2830d6c-e3cc-44ad-a114-e15062ff6887",
+            "Tag": "SceneTransitionController",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Script": {
+                "ClassName": "StartSceneController",
+                "Enabled": true
             }
         },
         {
