@@ -1,6 +1,7 @@
 # Ignis Example Project
 
 A sample game project built with the Ignis Game Engine, demonstrating the engine's capabilities including 3D rendering, physics, audio, and scripting.
+
 Please check out the main Ignis engine repository for more details: https://github.com/JamesLiu12/Ignis
 
 ## 🚀 Getting Started
@@ -83,13 +84,14 @@ out/build/arm64-release/Ignis/bin/Editor
 
 The editor will open and load the example project file `Ignis-Example-Project/IgnisExampleProject.igproj` using the project menu tab → load project
 
-## 🎮 Exporting Your Game
+## 🎮 Exporting Ignis-Example-Project Game
 
 ### Using the Editor
 
 1. **Open the project** in the Editor
-2. **Click "Project" → "Export Game"** in the menu bar
-3. The export process will:
+2. If you modify scripts, **Click "Project" → "Build Scripts"** in the menu bar
+3. **Click "Project" → "Export Game"** in the menu bar
+4. The export process will:
    - Validate that Runtime and script module are built
    - Package all necessary files (executable, DLLs, assets, scripts)
    - Create a distribution folder
@@ -160,11 +162,11 @@ Ignis-Example-Project/
 └── CMakeLists.txt            # Build configuration
 ```
 
-## 🛠️ Development Workflow
+## 🛠️ Game Development Workflow For Ignis Editor
 
-1. **Edit Scripts** - Modify C++ scripts in `assets/scripts/`
-2. **Rebuild** - Run `cmake --build --preset <preset-name>` to recompile scripts
-3. **Test in Editor** - Play mode in editor to test changes
+1. **Edit Scripts and Create Game Contents** - Modify C++ scripts in `assets/scripts/` and ceate game content 
+2. **Rebuild** - Click Project → Build Scripts in menu tab if you create or modify scripts
+3. **Test in Editor** - Use plat mode in editor to test changes
 4. **Export** - Create standalone build for distribution
 
 ## 📄 License
