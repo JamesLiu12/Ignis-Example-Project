@@ -3,7 +3,7 @@
     "Entities": [
         {
             "ID": "110cb8cd-aba4-4809-8d87-d2e76585bdf5",
-            "Tag": "Entity",
+            "Tag": "Camera",
             "Relationship": {
                 "ParentID": "00000000-0000-0000-0000-000000000000",
                 "FirstChildID": "00000000-0000-0000-0000-000000000000",
@@ -48,7 +48,7 @@
         },
         {
             "ID": "15bc2c10-8f9a-4d30-85a3-2860e1bedb96",
-            "Tag": "Entity",
+            "Tag": "Scene transition hanlder",
             "Relationship": {
                 "ParentID": "00000000-0000-0000-0000-000000000000",
                 "FirstChildID": "00000000-0000-0000-0000-000000000000",
@@ -81,7 +81,7 @@
         },
         {
             "ID": "49b834b2-f867-42f1-9cc9-68e914bb64bf",
-            "Tag": "Entity",
+            "Tag": "Text",
             "Relationship": {
                 "ParentID": "00000000-0000-0000-0000-000000000000",
                 "FirstChildID": "00000000-0000-0000-0000-000000000000",

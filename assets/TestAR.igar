@@ -120,11 +120,45 @@
             }
         },
         {
+            "Handle": "38a6cb8c-3ed2-4f16-8b88-9a2a53b2986d",
+            "Type": 1,
+            "FilePath": "resources://images/White.png",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
+            }
+        },
+        {
             "Handle": "3dd27a9d-3558-4a2e-8651-a88710e5acc5",
             "Type": 0,
             "FilePath": "assets://models/Cottage/texture/cottage_description.txt",
             "ImportOptions": {
                 "OptionsType": "None"
+            }
+        },
+        {
+            "Handle": "3ef48191-a3cf-411a-8519-bb3134bf40e4",
+            "Type": 1,
+            "FilePath": "resources://images/Black.png",
+            "ImportOptions": {
+                "OptionsType": "Texture",
+                "Options": {
+                    "FlipVertical": true,
+                    "GenMipmaps": true,
+                    "InternalFormat": 2,
+                    "WrapS": 0,
+                    "WrapT": 0,
+                    "MinFilter": 5,
+                    "MagFilter": 1
+                }
             }
         },
         {

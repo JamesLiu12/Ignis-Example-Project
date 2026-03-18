@@ -79,6 +79,104 @@
             }
         },
         {
+            "ID": "67e7c709-9781-43fe-8374-a8392552f7fe",
+            "Tag": "Invisible Ground",
+            "Relationship": {
+                "ParentID": "89217b32-2432-4368-9fa4-8f985f3f16b7",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "cd99bf47-61ad-4e27-af07-82742e4f4ac2",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    -1.3897323608398438,
+                    0.0
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "RigidBody": {
+                "BodyType": 0,
+                "Mass": 1.0,
+                "LinearDrag": 0.0,
+                "AngularDrag": 0.05000000074505806,
+                "UseGravity": true,
+                "IsKinematic": false,
+                "LockPositionX": false,
+                "LockPositionY": false,
+                "LockPositionZ": false,
+                "LockRotationX": false,
+                "LockRotationY": false,
+                "LockRotationZ": false
+            },
+            "BoxCollider": {
+                "HalfSize": [
+                    0.5,
+                    0.5,
+                    0.5
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Friction": 0.5,
+                "Restitution": 0.30000001192092896,
+                "IsTrigger": false
+            }
+        },
+        {
+            "ID": "89217b32-2432-4368-9fa4-8f985f3f16b7",
+            "Tag": "Tutorial Text",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "cd99bf47-61ad-4e27-af07-82742e4f4ac2",
+                "LastChildID": "67e7c709-9781-43fe-8374-a8392552f7fe",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 2
+            },
+            "Transform": {
+                "Translation": [
+                    -1.2146141529083252,
+                    -0.4647780954837799,
+                    4.0683488845825195
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Text": {
+                "Text": "Click Play to enter play mode\n\nto move camera\nHold right click + WASD QE\n\nClick Viewport to focus it",
+                "Font": "b2e69651-ff5a-411f-bd87-cadc16ac6f4b",
+                "Color": [
+                    0.0,
+                    0.617647647857666,
+                    1.0
+                ],
+                "Alpha": 1.0,
+                "Scale": 1.0
+            }
+        },
+        {
             "ID": "af10a8ff-1262-497d-9a86-934dfeeae6ed",
             "Tag": "Title",
             "Relationship": {
@@ -91,8 +189,8 @@
             },
             "Transform": {
                 "Translation": [
-                    -2.299999952316284,
-                    1.7000000476837158,
+                    -3.1901214122772217,
+                    -5.858494758605957,
                     -9.800000190734863
                 ],
                 "Rotation": [
@@ -107,7 +205,7 @@
                 ]
             },
             "Text": {
-                "Text": "So it will go to loading scene first\nThis will take some times\nClick T to return to first scene\n",
+                "Text": "Click T to return to first scene\n(In Play Mode)",
                 "Font": "b2e69651-ff5a-411f-bd87-cadc16ac6f4b",
                 "Color": [
                     0.0,
@@ -119,66 +217,21 @@
             }
         },
         {
-            "ID": "d2aef129-445d-4165-af95-502edd6cbdba",
-            "Tag": "Camera",
+            "ID": "cd99bf47-61ad-4e27-af07-82742e4f4ac2",
+            "Tag": "Ball",
             "Relationship": {
-                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "ParentID": "89217b32-2432-4368-9fa4-8f985f3f16b7",
                 "FirstChildID": "00000000-0000-0000-0000-000000000000",
                 "LastChildID": "00000000-0000-0000-0000-000000000000",
                 "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
-                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "67e7c709-9781-43fe-8374-a8392552f7fe",
                 "ChildrenCount": 0
             },
             "Transform": {
                 "Translation": [
                     0.0,
-                    0.0,
+                    4.2086710929870605,
                     0.0
-                ],
-                "Rotation": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "Scale": [
-                    1.0,
-                    1.0,
-                    1.0
-                ]
-            },
-            "Camera": {
-                "Primary": true,
-                "FixedAspectRatio": false,
-                "ProjectionType": 0,
-                "AspectRatio": 1.4822803735733032,
-                "PerspectiveFOV": 45.0,
-                "PerspectiveNear": 0.009999999776482582,
-                "PerspectiveFar": 1000.0,
-                "OrthographicSize": 10.0,
-                "OrthographicNear": -1.0,
-                "OrthographicFar": 1.0
-            },
-            "Script": {
-                "ClassName": "CameraController",
-                "Enabled": true
-            }
-        },
-        {
-            "ID": "f097b92e-1758-4008-94f7-10708f3cdf35",
-            "Tag": "Entity",
-            "Relationship": {
-                "ParentID": "00000000-0000-0000-0000-000000000000",
-                "FirstChildID": "00000000-0000-0000-0000-000000000000",
-                "LastChildID": "00000000-0000-0000-0000-000000000000",
-                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
-                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
-                "ChildrenCount": 0
-            },
-            "Transform": {
-                "Translation": [
-                    0.0,
-                    0.0,
-                    -6.0
                 ],
                 "Rotation": [
                     0.0,
@@ -195,7 +248,7 @@
                 "Mesh": "406f41d4-70d7-4d9a-8b0e-5ece9487872f",
                 "MaterialSlots": [
                     {
-                        "AlbedoMap": "3e06adaa-3b1a-4b0a-9eef-ec84aed4992c",
+                        "AlbedoMap": "3ef48191-a3cf-411a-8519-bb3134bf40e4",
                         "AlbedoColor": [
                             0.5203462839126587,
                             0.5203462839126587,
@@ -214,7 +267,7 @@
                             ],
                             "Rotation": 0.0
                         },
-                        "NormalMap": "d1c87e11-3cd9-4c49-a833-335186924680",
+                        "NormalMap": "19710dcf-737a-4017-b195-08f471d98900",
                         "NormalMapUVIndex": 0,
                         "NormalMapUVTransform": {
                             "Offset": [
@@ -227,7 +280,7 @@
                             ],
                             "Rotation": 0.0
                         },
-                        "MetalnessMap": "eaa2b86f-116f-4317-a3c1-027805a4b9e8",
+                        "MetalnessMap": "e10ec1e9-f062-4345-94f9-e600c1345a1b",
                         "MetallicValue": 0.0,
                         "MetallicChannel": 0,
                         "MetalnessMapUVIndex": 0,
@@ -330,9 +383,81 @@
                             ],
                             "Rotation": 0.0
                         },
+                        "Alpha": 0,
+                        "AlphaCutoff": 0.5,
                         "DoubleSided": false
                     }
                 ]
+            },
+            "RigidBody": {
+                "BodyType": 1,
+                "Mass": 1.0,
+                "LinearDrag": 0.0,
+                "AngularDrag": 0.05000000074505806,
+                "UseGravity": true,
+                "IsKinematic": false,
+                "LockPositionX": false,
+                "LockPositionY": false,
+                "LockPositionZ": false,
+                "LockRotationX": false,
+                "LockRotationY": false,
+                "LockRotationZ": false
+            },
+            "SphereCollider": {
+                "Radius": 0.8100000023841858,
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Friction": 0.5,
+                "Restitution": 3.0,
+                "IsTrigger": false
+            }
+        },
+        {
+            "ID": "d2aef129-445d-4165-af95-502edd6cbdba",
+            "Tag": "Camera",
+            "Relationship": {
+                "ParentID": "00000000-0000-0000-0000-000000000000",
+                "FirstChildID": "00000000-0000-0000-0000-000000000000",
+                "LastChildID": "00000000-0000-0000-0000-000000000000",
+                "PrevSiblingID": "00000000-0000-0000-0000-000000000000",
+                "NextSiblingID": "00000000-0000-0000-0000-000000000000",
+                "ChildrenCount": 0
+            },
+            "Transform": {
+                "Translation": [
+                    0.0,
+                    0.0,
+                    12.788671493530273
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "Camera": {
+                "Primary": true,
+                "FixedAspectRatio": false,
+                "ProjectionType": 0,
+                "AspectRatio": 1.4822803735733032,
+                "PerspectiveFOV": 45.0,
+                "PerspectiveNear": 0.009999999776482582,
+                "PerspectiveFar": 1000.0,
+                "OrthographicSize": 10.0,
+                "OrthographicNear": -1.0,
+                "OrthographicFar": 1.0
+            },
+            "Script": {
+                "ClassName": "CameraController",
+                "Enabled": true
             }
         }
     ]
